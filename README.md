@@ -1,5 +1,6 @@
 # dudaji-guide
 
+
 ## 1. Dudaji style guide
 - 한줄에 80(100)자 까지만 허용합니다. 길다면 줄바꿈을 하거나 리펙토링을 하도록 합니다.
 - while, for, if 등에 의해 depth가 깊어지는 것을 싫어합니다. 
@@ -17,6 +18,7 @@
 - 기타 스타일가이드는 python: PEP-8, javascript: airbnb style guide, 
 etc: google style guide를 이용합니다. 
 
+
 ## 2. Skeleton and terminal guide
 - 환경변수는 .env.example 등으로 제공하고 로컬에 띄우는 것 기준으로 작성합니다.
 다른 작업자는 cp .env.example .env를 통해서 환경변수를 복사합니다.
@@ -33,6 +35,7 @@ etc: google style guide를 이용합니다.
 alias g='cd ~/work/dudaji-guilde'
 ```
 
+
 ## 3. Install dotfiles
 - 두다지 기본 dotfiles를 제공하고 있습니다. bash, git, screen의 기본 설정입니다.
 서버는 동일하게 세팅하고, 개인 맥에서는 선택적으로 사용하면 됩니다. 
@@ -40,8 +43,8 @@ alias g='cd ~/work/dudaji-guilde'
 ./sh/dotfiles_install.sh
 ```
 
-## 4. Jetbrain IDE guide
 
+## 4. Jetbrain IDE guide
 
 ### Quick start
 - webstorm을 설치합니다. 
@@ -79,4 +82,22 @@ alias g='cd ~/work/dudaji-guilde'
 - undo / redo: u, ctrl+r
 - 기타 vim의 기본 이용: 
 [http://vim.wikia.com/wiki/Best_Vim_Tips](http://vim.wikia.com/wiki/Best_Vim_Tips)
+
+
+## 5. Work style
+- 프로젝트 막판에 널널한 것을 좋아합니다. 그래서 프로젝트 초반에 달리는 것을 좋아합니다.
+- Iteration과 working s/w를 좋아합니다. 큰 설계를 위해서 너무 많은 시간을 보내거나 일부만 작성하는 
+모듈 작성에 너무 많은 시간을 보내는 것을 좋아하지 않습니다. 
+- 문서는 3개월 뒤에 내가 봤을 때 바로 알 수 있는 수준으로 작성합니다. 너무 디테일하거나 간단하면 좋지 않습니다. 
+- s/w가 잘 작동하는지 확인하기 위한 unittest, mock, stub, dummy s/w를 만드는 것을 좋아합니다.
+- 배우는 것과 가르쳐주는 것을 좋아합니다. 범용적인 지식은 주로 좋은 링크, 논문, 책을 통해서 배우고 가르쳐주고 
+배우는 쪽에서 열심히 배워야 합니다. 업무에 해당하는 부분은 가르쳐주는 쪽에서 열심히 가르쳐주어야 합니다. 
+- 리서치는 네이버가 아닌 구글에서 합니다. 영문으로 합니다. 
+
+
+## 6. Identity
+- Customer의 고민을 함께 해결하려고 노력합니다. 
+- Learn을 좋아합니다.
+- Share를 좋아합니다.
+- Backbone을 가지고 토론하는 것을 좋아합니다.
 
