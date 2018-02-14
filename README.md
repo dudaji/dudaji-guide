@@ -47,4 +47,11 @@
 - 기능단위의 개발을 좋아합니다. 풀스택개발을 선호합니다. 서버/클라이언트 개발자로 나누어서 개발하는 것을 싫어합니다
 - git-flow를 사용합니다 [https://danielkummer.github.io/git-flow-cheatsheet/index.ko_KR.html](https://danielkummer.github.io/git-flow-cheatsheet/index.ko_KR.html)
 
+### Skeleton guide
+- 환경변수는 .env.example 등으로 제공하고 로컬에 띄우는 것 기준으로 작성합니다.
+다른 작업자는 cp .env.example .env를 통해서 환경변수를 복사합니다.
+- sh/ folder에 실행 등에 관련한 스크립트를 모아놓습니다.
+
+
+
 
